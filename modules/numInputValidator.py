@@ -21,5 +21,3 @@ def numVal():
         numVal()
     except:
         print("Please enter a valid number")
-
-
