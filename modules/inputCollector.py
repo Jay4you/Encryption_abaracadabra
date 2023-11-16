@@ -15,8 +15,6 @@ def txt():
     return text
 # End of Input function for text to be encoded
 
-
-
 # Start of Input function for shift value
 '''
 This function asks the user for a shift value, an integer number from the range 1..25
