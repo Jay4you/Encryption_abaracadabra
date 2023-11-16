@@ -1,11 +1,15 @@
+from inputCollector import key, txt
 from sys import exit
+def wishToBeMod():
+    if __name__ == "numInputValidator":
+        exit()
+wishToBeMod()
 
 # Start - Text input validation: Makes use of call back function until real str alpha is entered
 '''
 don't give up and don't let bad data fool you!
 Validate input
 '''
-
 def encode():
     try:
         newTxt = ""
@@ -23,7 +27,3 @@ def encode():
 
 # End - Text input validation: Makes use of call back function until real str alpha is enter
 
-def wishToBeMod():
-    if __name__ == "numInputValidator":
-        exit()
-wishToBeMod()
