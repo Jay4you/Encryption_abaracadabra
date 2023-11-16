@@ -1,23 +1,22 @@
-from sys import exit
 from inputCollector import key
+from sys import exit
 
-def wishToBeMod():
-    if __name__ == "numInputValidator":
-        exit()
 
-wishToBeMod()
+if __name__ != "__main__":
+    exit()
 
 '''
 This function validates numeric characters
 '''
 
-def numVal():
+
+def numeral():
     try:
-        plKey = key()
-        assert plKey.numeric
-        return plKey
+        pokey = key()
+        assert pokey.numeric
+        return pokey
     except TypeError:
         print("Please enter a valid number.\n Number between 1 - 25!")
-        numVal()
-    except:
+        numeral()
+    except ValueError:
         print("Please enter a valid number")
